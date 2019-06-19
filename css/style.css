@@ -1,0 +1,10 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.poster {
+    width: 100%;
+}
+.wraper {
+    margin-bottom: 30px;
+}
