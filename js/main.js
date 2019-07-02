@@ -17,8 +17,12 @@ function requestApi(method, url){
     request.send();
     request.addEventListener('readystatechange', function() {
         // console.log(request.readyState);
-        if(request.readyState !== 4){return;}
+        if(request.readyState !== 4){
+            movie.innerHTML ='Загрузка';
+            return;
+        }
         if(request.status !==200){
+            movie.innerHTML ='Упс, что то не так!';
             console.log('error: ' + request.status);
             return;
         }
