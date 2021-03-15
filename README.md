@@ -1,3 +1,3 @@
 # Cinema-search
-Lern js test
+Lern js REST Api fetch test
 https://daulet070.github.io/cinema-search/
